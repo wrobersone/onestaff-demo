@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import { BsFacebook, BsTwitter, BsYoutube } from "react-icons/bs";
-import mbe from "./images/MBE.png";
-import tjc from "./images/tjc.png";
+import { BsFacebook, BsTwitter, BsInstagram, BsLinkedin } from "react-icons/bs";
+import mbe from "../images/logo/MBE.png";
+import tjc from "../images/logo/tjc.png";
 
 export default function MainFooter() {
   const companyLinks = [
@@ -26,20 +26,21 @@ export default function MainFooter() {
     "What is crypto?",
     "What is a blockchain?",
   ];
-  const socialIcons = [<BsFacebook />, <BsTwitter />, <BsYoutube />];
+  const socialIcons = [<BsFacebook />, <BsTwitter />, <BsInstagram />, <BsLinkedin />];
   return (
     <Foot className="flex column gap">
       <div className="upper-footer">
         <div className=" flex column gap-1">
           <div className="brand">
-            <h2>Coinbase</h2>
+            <h2>onestaff</h2>
           </div>
           <div className="address">
-            <p>GymVast, 18 East 50th Street, 4th Floor, New York, NY 10022</p>
+            <p>10802 Farnam Drive, <br /> Omaha, NE 68154</p>
           </div>
           <div className="info">
-            <span>T : +1-202-555-0184</span>
-            <span>E : hello@cryptoz.com</span>
+            <p>10802 Farnam Drive, <br /> Omaha, NE 68154</p>
+            {/* <span>T : +1-202-555-0184</span>
+            <span>E : hello@cryptoz.com</span> */}
           </div>
           <div className="social-icons flex gap-2">
             {socialIcons.map((icon, index) => {
@@ -89,7 +90,7 @@ export default function MainFooter() {
       </div>
       <div className="lower-footer flex a-center j-between gap">
         <div className="col1">
-          <span>&copy; Crypto a Theme by Kishan Sheth</span>
+          <span>&copy; One Staff Medical 2022 | All Rights Reserved.</span>
         </div>
         <div className="col2 flex a-center gap">
           <span>Privacy Policy</span>

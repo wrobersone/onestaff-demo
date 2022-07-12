@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import logo from "../main/images/osm_mobile_logo.png";
-import mbe from '../main/images/MBE.png'
-import tjc from '../main/images/tjc.png'
-import Button from "./Button";
+import logo from "../../components/images/logo/osm_mobile_logo.png";
+import mbe from '../../components/images/logo/MBE.png'
+import tjc from '../../components/images/logo/tjc.png'
+import Button from "../common/Button";
 
 export default function Footer() {
   const quickLinks = [

@@ -4,7 +4,7 @@ import {SectionBennies1} from '../sections/homepage/Benefits'
 import { CarouselSlides1 } from '../sections/homepage/Hero'
 import {SectionNewTraveler1} from '../sections/homepage/NewTraveler'
 import { SectionReviews1 } from '../sections/homepage/Reviews'
-import { Footer1 } from '../main/Foot'
+import { Footer1 } from '../components/common/Foot'
 
 const HomePage = () => {
   return (

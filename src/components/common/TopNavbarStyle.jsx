@@ -18,7 +18,7 @@ export const Logo = styled(motion.div)`
 `;
 
 export const NavLinks = styled.div`
-    @media screen and (max-width: 824px) {
+    @media screen and (max-width: 968px) {
         display: none;
     }
 `;

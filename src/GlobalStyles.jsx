@@ -10,6 +10,10 @@ export const GlobalStyles = createGlobalStyle`
         font-family: "Open Sans", sans-serif;
     }
 
+    :root {
+        --color-primary: #4fc1b1;
+    }
+
     html {
         font-size: 15px;
         background: ${({theme}) => theme.background};

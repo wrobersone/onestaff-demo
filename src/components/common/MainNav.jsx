@@ -1,22 +1,22 @@
 import React from 'react'
 import styled from 'styled-components'
-import Button from './Button';
+import Button from '../common/Button';
 
 function MainNavbar() {
   // const links = ['Home', 'Dashboard', 'Resources', 'About', 'Blog'];
   return (
     <Nav className='flex j-between a-center'>
       <div className="brand">
-        <h2>Onestaff</h2>
+        {/* <h2>Onestaff</h2> */}
       </div>
       <div className="toggle"></div>
       <div className="links">
         <ul className='flex gap-2'>
-          <li><a href="/">Home</a></li>
+          {/* <li><a href="/">Home</a></li>
           <li><a href="/osm-employment">Travel Jobs</a></li>
           <li><a href="/osm-resources">Resources</a></li>
           <li><a href="/about-us">About Us</a></li>
-          <li><a href="/osm-blog">OSM Blog</a></li>
+          <li><a href="/osm-blog">OSM Blog</a></li> */}
           {/* {links.map((link) => {
             return (
               <li key={link}>
